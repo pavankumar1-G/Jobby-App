@@ -82,7 +82,7 @@ class LoginFormRoute extends Component {
           <input
             className="user-input"
             id="password"
-            type="text"
+            type="password"
             value={password}
             placeholder="Password"
             onChange={this.onChangeuserpasswordInput}
