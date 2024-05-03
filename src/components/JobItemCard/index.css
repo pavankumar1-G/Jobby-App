@@ -1,0 +1,147 @@
+.job-item-card-container {
+  background-color: #272727;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  list-style-type: none;
+}
+.company-logo-title-rating-container {
+  display: flex;
+  align-items: center;
+}
+.star-rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+  margin-top: 0;
+  padding-top: 0;
+  height: 40px;
+}
+.company-logo {
+  height: 40px;
+}
+.job-title {
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.job-item-link {
+  text-decoration: none;
+}
+.title-rating-container {
+  margin-left: 10px;
+}
+.star-icon {
+  color: #fbbf24;
+  margin-right: 6px;
+}
+.rating {
+  color: #f8fafc;
+}
+
+.location-type-salary-container {
+  display: flex;
+  justify-content: space-between;
+  color: #f8fafc;
+}
+.location-type-container {
+  display: flex;
+  align-items: center;
+}
+.location-container {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+.employment-type-container {
+  display: flex;
+  align-items: center;
+}
+.location-icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.location {
+  font-size: 14px;
+}
+.employment-icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+.employment-type {
+  font-size: 14px;
+}
+.package {
+  font-size: 16px;
+  font-weight: bold;
+}
+.heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+.description {
+  color: #f1f5f9;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-card-container {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  .star-rating-container {
+    height: 50px;
+  }
+  .company-logo {
+    height: 80px;
+  }
+  .job-title {
+    font-size: 20px;
+  }
+
+  .title-rating-container {
+    margin-left: 15px;
+  }
+  .star-icon {
+    font-size: 20px;
+    margin-right: 8px;
+  }
+  .rating {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .location-container {
+    margin-right: 25px;
+  }
+
+  .location-icon {
+    font-size: 22px;
+    margin-right: 10px;
+  }
+  .location {
+    font-size: 16px;
+  }
+  .employment-icon {
+    font-size: 22px;
+    margin-right: 10px;
+  }
+  .employment-type {
+    font-size: 16px;
+  }
+  .package {
+    font-size: 18px;
+  }
+  .heading {
+    font-size: 30px;
+  }
+  .description {
+    font-size: 18px;
+  }
+}
